@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <title>Hexo</title>
+  <title>Blog</title>
   <icon>https://write.jzfx.top/icon.png</icon>
   
   <link href="https://write.jzfx.top/atom.xml" rel="self"/>
   
   <link href="https://write.jzfx.top/"/>
-  <updated>2023-05-11T17:10:57.183Z</updated>
+  <updated>2023-05-11T17:28:53.941Z</updated>
   <id>https://write.jzfx.top/</id>
   
   <author>
-    <name>John Doe</name>
+    <name>Rui Zeng</name>
     
   </author>
   
@@ -21,16 +21,10 @@
     <link href="https://write.jzfx.top/2020/09/27/hello-world/"/>
     <id>https://write.jzfx.top/2020/09/27/hello-world/</id>
     <published>2020-09-27T02:42:38.000Z</published>
-    <updated>2023-05-11T17:10:57.183Z</updated>
+    <updated>2023-05-11T17:28:53.941Z</updated>
     
     
-      
-      
-        
-        
-    <summary type="html">&lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.io/docs/&quot;&gt;documentation&lt;/a&gt;</summary>
-        
-      
+    <summary type="html">Here&#39;s something encrypted, password is required to continue reading.</summary>
     
     
     
