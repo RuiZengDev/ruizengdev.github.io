@@ -7,7 +7,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   
   
-  <title>Hexo</title>
+  <title>标签 | Hexo</title>
 
   
     <link rel="apple-touch-icon" href="/images/favicon.png">
@@ -90,30 +90,25 @@
 
 
       <div class="flex-container">
-        <div class="container index">
-  <div class="post-list">
-    <!-- 遍历渲染文章 -->
-    
-      <div class="post-item" title="Hello World!">
-        <div class="time-m-d">2020-09-27</div>
-        <div class="title">
-          <a href="/2020/09/27/hello-world/">
-            
-              
-                <span>Hello World!</span>
-              
-            
-          </a>
-        </div>
-      </div>
-    
+        <!-- 文章详情页，展示文章具体内容，url形式：https://yoursite/文章标题/ -->
+<!-- 同时为「标签tag」，「朋友friend」，「分类categories」，「关于about」页面的承载页面，具体展示取决于page.type -->
+
+
+  <!-- 标签页 url形式：https://yoursite/tags/ -->
+  <div class="container tag-index">
+    <div>
+      <ul class="tag-list" itemprop="keywords"><li class="tag-list-item"><a class="tag-list-link" href="/tags/Hello/" rel="tag">Hello</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/World/" rel="tag">World</a><span class="tag-list-count">1</span></li></ul>
+    </div>
   </div>
-  <nav class="post-navigation">
-    
-    <span class="page-num">1 / 1</span>
-    
-  </nav>
-</div>
+  
+
+  
+
+  
+
+  
+
+  
 
         <div class="footer">
   <div class="social">

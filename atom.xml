@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Hexo</title>
+  <icon>https://ruizengdev.github.io/icon.png</icon>
+  
+  <link href="https://ruizengdev.github.io/atom.xml" rel="self"/>
+  
+  <link href="https://ruizengdev.github.io/"/>
+  <updated>2023-05-09T13:08:33.933Z</updated>
+  <id>https://ruizengdev.github.io/</id>
+  
+  <author>
+    <name>John Doe</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Hello World!</title>
+    <link href="https://ruizengdev.github.io/2020/09/27/hello-world/"/>
+    <id>https://ruizengdev.github.io/2020/09/27/hello-world/</id>
+    <published>2020-09-27T02:42:38.000Z</published>
+    <updated>2023-05-09T13:08:33.933Z</updated>
+    
+    
+    <summary type="html">Here&#39;s something encrypted, password is required to continue reading.</summary>
+    
+    
+    
+    
+    <category term="World" scheme="https://ruizengdev.github.io/tags/World/"/>
+    
+    <category term="Hello" scheme="https://ruizengdev.github.io/tags/Hello/"/>
+    
+  </entry>
+  
+</feed>
