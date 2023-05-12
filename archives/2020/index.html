@@ -5,8 +5,9 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   
-  <meta name="author" content="Rui Zeng" />
-  <meta name="description" content="" />
+
+  
+
   
   
   <title>
@@ -78,7 +79,7 @@
         <img no-lazy src="/images/avatar.png" alt="">
       
     </a>
-    <div class="nickname"><a href="/">Oranges</a></div>
+    <div class="nickname"><a href="/">Rui Zeng</a></div>
   </div>
   <div class="navbar">
     <ul>
@@ -120,6 +121,22 @@
 
 <div class="container archives">
   <div class="post-list">
+    
+        <!-- 后续文章的发布年份呈现 -->
+        <div class="content-title">
+          <h2>
+            <span>2023</span>
+          </h2>
+        </div>
+      
+      <div class="post-item" title="">
+        <div class="time-m-d">05-12</div>
+        <div class="title">
+          <a href="/2023/05/12/Github%E8%BF%9E%E6%8E%A5%E4%BB%93%E5%BA%93/">
+            <span></span>
+          </a>
+        </div>
+      </div>
     
         <!-- 后续文章的发布年份呈现 -->
         <div class="content-title">
@@ -252,6 +269,8 @@
         searchOverlayArea.classList.remove('hidden')
         document.body.classList.add('hidden')
         // inputArea.focus()
+        inputArea.focus()
+        getSearchFile()
       } else {
         searchOverlayArea.classList.add('hidden')
         document.body.classList.remove('hidden')
