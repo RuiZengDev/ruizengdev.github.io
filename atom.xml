@@ -6,7 +6,7 @@
   <link href="https://write.jzfx.top/atom.xml" rel="self"/>
   
   <link href="https://write.jzfx.top/"/>
-  <updated>2023-05-12T03:25:38.260Z</updated>
+  <updated>2023-05-12T14:02:39.751Z</updated>
   <id>https://write.jzfx.top/</id>
   
   <author>
@@ -18,17 +18,17 @@
   
   <entry>
     <title>Git不完全教程</title>
-    <link href="https://write.jzfx.top/2020/09/27/Github%E8%BF%9E%E6%8E%A5%E4%BB%93%E5%BA%93/"/>
-    <id>https://write.jzfx.top/2020/09/27/Github%E8%BF%9E%E6%8E%A5%E4%BB%93%E5%BA%93/</id>
+    <link href="https://write.jzfx.top/2020/09/27/Git%E4%B8%8D%E5%AE%8C%E5%85%A8%E6%95%99%E7%A8%8B/"/>
+    <id>https://write.jzfx.top/2020/09/27/Git%E4%B8%8D%E5%AE%8C%E5%85%A8%E6%95%99%E7%A8%8B/</id>
     <published>2020-09-27T02:42:38.000Z</published>
-    <updated>2023-05-12T03:25:38.260Z</updated>
+    <updated>2023-05-12T14:02:39.751Z</updated>
     
     
       
       
         
         
-    <summary type="html">&lt;h1 id=&quot;Git-教程（待完善）&quot;&gt;&lt;a href=&quot;#Git-教程（待完善）&quot; class=&quot;headerlink&quot; title=&quot;Git 教程（待完善）&quot;&gt;&lt;/a&gt;&lt;code&gt;Git&lt;/code&gt; 教程（待完善）&lt;/h1&gt;&lt;p&gt;&lt;svg</summary>
+    <summary type="html">&lt;h1 id=&quot;Git-不完全教程&quot;&gt;&lt;a href=&quot;#Git-不完全教程&quot; class=&quot;headerlink&quot; title=&quot;Git 不完全教程&quot;&gt;&lt;/a&gt;&lt;code&gt;Git&lt;/code&gt; 不完全教程&lt;/h1&gt;&lt;p&gt;&lt;svg</summary>
         
       
     
@@ -42,18 +42,67 @@
   </entry>
   
   <entry>
-    <title>不同的SSH连接方法</title>
-    <link href="https://write.jzfx.top/2020/07/03/%E4%B8%8D%E5%90%8C%E7%9A%84SSH%E8%BF%9E%E6%8E%A5%E6%96%B9%E6%B3%95/"/>
-    <id>https://write.jzfx.top/2020/07/03/%E4%B8%8D%E5%90%8C%E7%9A%84SSH%E8%BF%9E%E6%8E%A5%E6%96%B9%E6%B3%95/</id>
+    <title>使用Anaconda管理Python虚拟环境</title>
+    <link href="https://write.jzfx.top/2020/07/31/%E4%BD%BF%E7%94%A8Anaconda%E7%AE%A1%E7%90%86Python%E8%99%9A%E6%8B%9F%E7%8E%AF%E5%A2%83/"/>
+    <id>https://write.jzfx.top/2020/07/31/%E4%BD%BF%E7%94%A8Anaconda%E7%AE%A1%E7%90%86Python%E8%99%9A%E6%8B%9F%E7%8E%AF%E5%A2%83/</id>
+    <published>2020-07-31T09:56:26.000Z</published>
+    <updated>2023-05-12T13:06:45.680Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;查看anaconda版本信息&quot;&gt;&lt;a href=&quot;#查看anaconda版本信息&quot; class=&quot;headerlink&quot; title=&quot;查看anaconda版本信息&quot;&gt;&lt;/a&gt;查看anaconda版本信息&lt;/h1&gt;&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;conda</summary>
+        
+      
+    
+    
+    
+    
+    <category term="Python" scheme="https://write.jzfx.top/tags/Python/"/>
+    
+    <category term="Anaconda" scheme="https://write.jzfx.top/tags/Anaconda/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>KeyShotXR学习</title>
+    <link href="https://write.jzfx.top/2020/07/25/KeyShotXR%E5%AD%A6%E4%B9%A0/"/>
+    <id>https://write.jzfx.top/2020/07/25/KeyShotXR%E5%AD%A6%E4%B9%A0/</id>
+    <published>2020-07-25T12:23:52.000Z</published>
+    <updated>2023-05-12T14:41:44.933Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;1-OpenMV&quot;&gt;&lt;a href=&quot;#1-OpenMV&quot; class=&quot;headerlink&quot; title=&quot;1.OpenMV&quot;&gt;&lt;/a&gt;1.OpenMV&lt;/h1&gt;&lt;div style=&quot;position: relative; width: 100%;</summary>
+        
+      
+    
+    
+    
+    
+    <category term="Keyshot" scheme="https://write.jzfx.top/tags/Keyshot/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Windows下通过SSH连接Linux虚拟机</title>
+    <link href="https://write.jzfx.top/2020/07/03/Windows%E4%B8%8B%E9%80%9A%E8%BF%87SSH%E8%BF%9E%E6%8E%A5Linux%E8%99%9A%E6%8B%9F%E6%9C%BA/"/>
+    <id>https://write.jzfx.top/2020/07/03/Windows%E4%B8%8B%E9%80%9A%E8%BF%87SSH%E8%BF%9E%E6%8E%A5Linux%E8%99%9A%E6%8B%9F%E6%9C%BA/</id>
     <published>2020-07-03T05:19:43.000Z</published>
-    <updated>2023-05-12T06:46:41.746Z</updated>
+    <updated>2023-05-12T13:55:27.160Z</updated>
     
     
       
       
         
         
-    <summary type="html">&lt;h1 id=&quot;如何在windows中登入到Ubuntu虚拟机&quot;&gt;&lt;a href=&quot;#如何在windows中登入到Ubuntu虚拟机&quot; class=&quot;headerlink&quot;</summary>
+    <summary type="html">&lt;h1 id=&quot;Windows下通过SSH连接Linux虚拟机&quot;&gt;&lt;a href=&quot;#Windows下通过SSH连接Linux虚拟机&quot; class=&quot;headerlink&quot;</summary>
         
       
     

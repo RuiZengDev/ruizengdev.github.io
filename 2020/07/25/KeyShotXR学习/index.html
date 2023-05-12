@@ -12,7 +12,7 @@
   
   <title>
     
-      归档 
+      KeyShotXR学习 
       
       
       |
@@ -118,59 +118,178 @@
 
 
       <div class="flex-container">
-        <!-- 归档页，展示本站所有文章，按照年份降序归类，url形式：https://yoursite/archives/ -->
+        <!-- 文章详情页，展示文章具体内容，url形式：https://yoursite/文章标题/ -->
+<!-- 同时为「标签tag」，「朋友friend」，「分类categories」，「关于about」页面的承载页面，具体展示取决于page.type -->
 
-<!-- last: 按年份把文章分组，当前遍历到的年份 -->
-<!-- now: 当前遍历到的文章的发布年份 -->
 
-<div class="container archives">
-  <div class="post-list">
-    
-        <!-- 后续文章的发布年份呈现 -->
-        <div class="content-title">
-          <h2>
-            <span>2020</span>
-          </h2>
+  <!-- LaTex Display -->
+
+  
+    <script async type="text/javascript" src="/plugins/mathjax/tex-chtml.js"></script>
+  
+  <script>
+    MathJax = {
+      tex: {
+        inlineMath: [['$', '$'], ['\\(', '\\)']]
+      }
+    }
+  </script>
+
+
+
+
+
+  <!-- clipboard -->
+
+  
+    <script async type="text/javascript" src="/plugins/clipboard.min.js"></script>
+  
+  
+<script src="/js/codeCopy.js"></script>
+
+
+
+
+
+
+
+  
+
+  
+
+  
+
+  
+  <!-- 文章内容页 url形式：https://yoursite/文章标题/ -->
+  <div class="container post-details" id="post-details">
+    <div class="post-content">
+      <div class="post-title">KeyShotXR学习</div>
+      <div class="post-attach">
+        <span class="post-pubtime">
+          <i class="iconfont icon-updatetime mr-10" title="更新时间"></i>
+          2023-05-12 22:41:44
+        </span>
+        
+              <span class="post-tags">
+                <i class="iconfont icon-tags mr-10" title="标签"></i>
+                
+                <span class="span--tag mr-8">
+                  <a href="/tags/Keyshot/" title="Keyshot">
+                    #Keyshot
+                  </a>
+                </span>
+                
+              </span>
+          
+      </div>
+      <div class="markdown-body">
+        <h1 id="1-OpenMV"><a href="#1-OpenMV" class="headerlink" title="1.OpenMV"></a>1.OpenMV</h1><div style="position: relative; width: 100%; height: 0; padding-bottom: 75%;">
+    <iframe src="https://write.jzfx.top/openmv/" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" style="position: absolute; width: 100%; height: 100%; left: 0; top: 0;"> </iframe>
+</div>
+
+
+
+<h1 id="2-AK-47"><a href="#2-AK-47" class="headerlink" title="2.AK-47"></a>2.AK-47</h1><div style="position: relative; width: 100%; height: 0; padding-bottom: 75%;">
+    <iframe src="https://write.jzfx.top/ak47/" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" style="position: absolute; width: 100%; height: 100%; left: 0; top: 0;"> </iframe>
+</div>
+      </div>
+      
+        <div class="prev-or-next">
+          <div class="post-foot-next">
+            
+              <a href="/2020/07/03/Windows%E4%B8%8B%E9%80%9A%E8%BF%87SSH%E8%BF%9E%E6%8E%A5Linux%E8%99%9A%E6%8B%9F%E6%9C%BA/" target="_self">
+                <i class="iconfont icon-chevronleft"></i>
+                <span>上一页</span>
+              </a>
+            
+          </div>
+          <div class="post-attach">
+            <span class="post-pubtime">
+              <i class="iconfont icon-updatetime mr-10" title="更新时间"></i>
+              2023-05-12 22:41:44
+            </span>
+            
+                  <span class="post-tags">
+                    <i class="iconfont icon-tags mr-10" title="标签"></i>
+                    
+                    <span class="span--tag mr-8">
+                      <a href="/tags/Keyshot/" title="Keyshot">
+                        #Keyshot
+                      </a>
+                    </span>
+                    
+                  </span>
+              
+          </div>
+          <div class="post-foot-prev">
+            
+              <a href="/2020/07/31/%E4%BD%BF%E7%94%A8Anaconda%E7%AE%A1%E7%90%86Python%E8%99%9A%E6%8B%9F%E7%8E%AF%E5%A2%83/" target="_self">
+                <span>下一页</span>
+                <i class="iconfont icon-chevronright"></i>
+              </a>
+            
+          </div>
         </div>
       
-      <div class="post-item" title="Git不完全教程">
-        <div class="time-m-d">09-27</div>
-        <div class="title">
-          <a href="/2020/09/27/Git%E4%B8%8D%E5%AE%8C%E5%85%A8%E6%95%99%E7%A8%8B/">
-            <span>Git不完全教程</span>
-          </a>
-        </div>
-      </div>
+    </div>
     
-      <div class="post-item" title="使用Anaconda管理Python虚拟环境">
-        <div class="time-m-d">07-31</div>
-        <div class="title">
-          <a href="/2020/07/31/%E4%BD%BF%E7%94%A8Anaconda%E7%AE%A1%E7%90%86Python%E8%99%9A%E6%8B%9F%E7%8E%AF%E5%A2%83/">
-            <span>使用Anaconda管理Python虚拟环境</span>
-          </a>
-        </div>
-      </div>
+  <div id="btn-catalog" class="btn-catalog">
+    <i class="iconfont icon-catalog"></i>
+  </div>
+  <div class="post-catalog hidden" id="catalog">
+    <div class="title">目录</div>
+    <div class="catalog-content">
+      
+        <ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#1-OpenMV"><span class="toc-text">1.OpenMV</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#2-AK-47"><span class="toc-text">2.AK-47</span></a></li></ol>
+      
+    </div>
+  </div>
+
+  
+<script src="/js/catalog.js"></script>
+
+
+
+
     
-      <div class="post-item" title="KeyShotXR学习">
-        <div class="time-m-d">07-25</div>
-        <div class="title">
-          <a href="/2020/07/25/KeyShotXR%E5%AD%A6%E4%B9%A0/">
-            <span>KeyShotXR学习</span>
-          </a>
-        </div>
-      </div>
-    
-      <div class="post-item" title="Windows下通过SSH连接Linux虚拟机">
-        <div class="time-m-d">07-03</div>
-        <div class="title">
-          <a href="/2020/07/03/Windows%E4%B8%8B%E9%80%9A%E8%BF%87SSH%E8%BF%9E%E6%8E%A5Linux%E8%99%9A%E6%8B%9F%E6%9C%BA/">
-            <span>Windows下通过SSH连接Linux虚拟机</span>
-          </a>
-        </div>
+      <div class="comments-container">
+        
+
+
+
+
+  
+    <script async type="text/javascript" src="/plugins/valine.min.js" onload="loadValineSuc(this)"></script>
+  
+
+  <div id="vcomments"></div>
+
+  <script>
+    function loadValineSuc() {
+      new Valine({
+        el: '#vcomments',
+        appId: 'O8kQ5IcWs9p6AsoJRSD06UEb-gzGzoHsz',
+        appKey: 'rvJ6OvTnCErAUurCPkbj5UuL',
+        placeholder: 'Welcome!',
+        avatar: 'robohash',
+        lang: 'zh-CN'
+      })
+    }
+  </script>
+
+    <style>
+      .comments-container .v .vempty {
+        display: none!important;
+      }
+    </style>
+
+
+
+
       </div>
     
   </div>
-</div>
+
 
         
 <div class="footer">
@@ -472,6 +591,24 @@
    -->
 
         
+  
+    <div class="share-icon tools-bar-item">
+      <a href="javascript: void(0)" id="share-icon">
+        <i class="iconfont iconshare"></i>
+      </a>
+      <div class="share-content hidden">
+        
+          <a class="share-item" href="https://twitter.com/intent/tweet?text=' + KeyShotXR%E5%AD%A6%E4%B9%A0 + '&url=' + https%3A%2F%2Fwrite.jzfx.top%2F2020%2F07%2F25%2FKeyShotXR%25E5%25AD%25A6%25E4%25B9%25A0%2F + '" target="_blank" title="Twitter">
+            <i class="iconfont icon-twitter"></i>
+          </a>
+        
+        
+          <a class="share-item" href="https://www.facebook.com/sharer.php?u=https://write.jzfx.top/2020/07/25/KeyShotXR%E5%AD%A6%E4%B9%A0/" target="_blank" title="Facebook">
+            <i class="iconfont icon-facebooksquare"></i>
+          </a>
+        
+      </div>
+    </div>
   
   
 <script src="/js/shares.js"></script>

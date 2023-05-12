@@ -12,7 +12,7 @@
   
   <title>
     
-      不同的SSH连接方法 
+      Windows下通过SSH连接Linux虚拟机 
       
       
       |
@@ -163,11 +163,11 @@
   <!-- 文章内容页 url形式：https://yoursite/文章标题/ -->
   <div class="container post-details" id="post-details">
     <div class="post-content">
-      <div class="post-title">不同的SSH连接方法</div>
+      <div class="post-title">Windows下通过SSH连接Linux虚拟机</div>
       <div class="post-attach">
         <span class="post-pubtime">
           <i class="iconfont icon-updatetime mr-10" title="更新时间"></i>
-          2023-05-12 14:46:41
+          2023-05-12 21:55:27
         </span>
         
               <span class="post-tags">
@@ -189,8 +189,8 @@
           
       </div>
       <div class="markdown-body">
-        <h1 id="如何在windows中登入到Ubuntu虚拟机"><a href="#如何在windows中登入到Ubuntu虚拟机" class="headerlink" title="如何在windows中登入到Ubuntu虚拟机"></a>如何在<code>windows</code>中登入到<code>Ubuntu</code>虚拟机</h1><hr>
-<h2 id="方法一：使用windows自带的openssh"><a href="#方法一：使用windows自带的openssh" class="headerlink" title="方法一：使用windows自带的openssh"></a>方法一：使用<code>windows</code>自带的<code>openssh</code></h2><h4 id="1-如何开启windows自带的openssh"><a href="#1-如何开启windows自带的openssh" class="headerlink" title="1.如何开启windows自带的openssh"></a>1.如何开启<code>windows</code>自带的<code>openssh</code></h4><ul>
+        <h1 id="Windows下通过SSH连接Linux虚拟机"><a href="#Windows下通过SSH连接Linux虚拟机" class="headerlink" title="Windows下通过SSH连接Linux虚拟机"></a>Windows下通过SSH连接Linux虚拟机</h1><hr>
+<h2 id="1-使用windows自带的openssh"><a href="#1-使用windows自带的openssh" class="headerlink" title="1.使用windows自带的openssh"></a>1.使用<code>windows</code>自带的<code>openssh</code></h2><h3 id="1-开启Windows的openssh的功能"><a href="#1-开启Windows的openssh的功能" class="headerlink" title="1.开启Windows的openssh的功能"></a>1.开启<code>Windows</code>的<code>openssh</code>的功能</h3><ul>
 <li><p>在<em><strong>windows</strong></em>左下角搜索框搜索 <code>管理可选功能</code></p>
 </li>
 <li><p>点击添加功能找到<code>OpenSSH Clinent</code>或者<code>OpenSSH 客户端</code></p>
@@ -206,12 +206,9 @@
 <li><p>输入<code>ssh</code>之后得到 <code>ssh</code>相关提示即为成功开启Openssh</p>
 <ul>
 <li><p><strong><font color=#DC143C>注意：</font></strong></p>
-</li>
-<li><p>检验 <code>Openssh</code> 是否成功开启之前</p>
-</li>
-<li><p>在<em><strong>windows</strong></em>左下角搜索框搜索 <strong>环境变量</strong></p>
-</li>
-<li><p>点击环境变量在系统环境变量中找到 <code>Path</code> 一项 点击编辑，查看是否存在 <code>Openssh</code> 的安装路径 <code>C:\Windows\System32\OpenSSH</code></p>
+<ul>
+<li>检验 <code>Openssh</code> 是否成功开启之前,在<em><strong>windows</strong></em>左下角搜索框搜索 <strong>环境变量</strong>，点击环境变量在系统环境变量中找到 <code>Path</code> 一项 点击编辑，查看是否存在 <code>Openssh</code> 的安装路径 <code>C:\Windows\System32\OpenSSH</code></li>
+</ul>
 </li>
 <li><p><strong><font color=#DC143C>注意：</font></strong></p>
 <ul>
@@ -229,53 +226,76 @@
 </li>
 </ul>
 <hr>
-<h4 id="2-利用windows10中的Openssh连接到Ubuntu服务器"><a href="#2-利用windows10中的Openssh连接到Ubuntu服务器" class="headerlink" title="2.利用windows10中的Openssh连接到Ubuntu服务器"></a>2.利用windows10中的Openssh连接到Ubuntu服务器</h4><ul>
+<h3 id="2-利用windows10中的Openssh连接到Ubuntu服务器"><a href="#2-利用windows10中的Openssh连接到Ubuntu服务器" class="headerlink" title="2.利用windows10中的Openssh连接到Ubuntu服务器"></a>2.利用windows10中的Openssh连接到Ubuntu服务器</h3><ul>
 <li>以管理员身份打开<code>powershell</code></li>
 <li>输入<code>ssh</code>（确认是否正确开启<code>Openssh</code>服务）</li>
 <li>继续键入<code>ssh [-p port] user@address</code><ul>
-<li><code>user</code>是指在远程服务器上的用户名</li>
-<li><code>[-p port]</code>可以省略，<code>port</code>是指<code>SSH Server</code>监听的端口，在没有指定时，默认为<code>22</code>号端口</li>
-<li><code>address</code>是指远程服务器的<code>IP地址/域名/用户自己设定的别名</code><br><img src="./images/loading.gif" data-original="https://lsky.winnerzr.ml/admin/2023/05/12/645de01aed654.png" alt="image-20230512144337848"></li>
-<li>退出服务器的方法：输入<code>exit</code> 即可</li>
+<li><p><code>user</code>是指在远程服务器上的用户名</p>
+</li>
+<li><p><code>[-p port]</code>可以省略，<code>port</code>是指<code>SSH Server</code>监听的端口，在没有指定时，默认为<code>22</code>号端口</p>
+</li>
+<li><p><code>address</code>是指远程服务器的<code>IP地址/域名/用户自己设定的别名</code></p>
+<blockquote>
+<img src="./images/loading.gif" data-original="https://lsky.winnerzr.ml/admin/2023/05/12/645de01aed654.png" alt="image-20230512144337848" style="zoom:33%;" /></blockquote>
+</li>
+<li><p>退出服务器的方法：输入<code>exit</code> 即可</p>
+</li>
 </ul>
 </li>
 </ul>
 <hr>
-<h2 id="方法二：在windows下使用Putty工具"><a href="#方法二：在windows下使用Putty工具" class="headerlink" title="方法二：在windows下使用Putty工具"></a>方法二：在<code>windows</code>下使用<code>Putty</code>工具</h2><h4 id="工具在文章末尾有度盘链接"><a href="#工具在文章末尾有度盘链接" class="headerlink" title="工具在文章末尾有度盘链接"></a>工具在文章末尾有度盘链接</h4><ul>
-<li>安装putty之后直接打开</li>
-<li><img src="./images/loading.gif" data-original="https://lsky.winnerzr.ml/admin/2023/05/12/645ddfe0befaa.png" alt="image-20230512144239252">在红色方框中输入 <code>Ubuntu</code> 虚拟机的 <code>IP</code><ul>
-<li><p>在<code>Ubuntu</code>中输入<code>ifconfig | grep inet</code> 找到<code>inet</code>对应的<code>IP</code>地址，（127.0.0.1不用管）</p>
+<h2 id="2-windows下使用Putty工具"><a href="#2-windows下使用Putty工具" class="headerlink" title="2.windows下使用Putty工具"></a>2.<code>windows</code>下使用<code>Putty</code>工具</h2><ul>
+<li><p>安装putty之后直接打开</p>
+</li>
+<li><p>在红色方框中输入 <code>Ubuntu</code> 虚拟机的 <code>IP</code></p>
+<blockquote>
+<img src="./images/loading.gif" data-original="https://lsky.winnerzr.ml/admin/2023/05/12/645ddfe0befaa.png" alt="image-20230512144239252" style="zoom: 33%;" />
+</blockquote>
+<ul>
+<li>查看虚拟机<code>IP</code><ul>
+<li>在<code>Ubuntu</code>中输入<code>ifconfig | grep inet</code> 找到<code>inet</code>对应的<code>IP</code>地址</li>
+</ul>
+</li>
+</ul>
 </li>
 <li><p>输入到图中红色方框内，点击<code>Open</code></p>
 </li>
-<li><p>第一次点击 <code>open</code> 之后 <code>putty</code> 会选择是否信任你接下来要连接的服务器，我们点击<code>是</code></p>
-</li>
-<li><p>之后 <code>putty</code> 提示输入</p>
-</li>
-<li><p><img src="./images/loading.gif" data-original="https://lsky.winnerzr.ml/admin/2023/05/12/645de02bc855e.png" alt="image-20230512144354744"></p>
+<li><p>第一次点击 <code>open</code> 之后 <code>putty</code> 会选择是否信任你接下来要连接的服务器，我们点击<code>是</code>之后 <code>putty</code> 提示输入：</p>
+<blockquote>
+<img src="./images/loading.gif" data-original="https://lsky.winnerzr.ml/admin/2023/05/12/645de02bc855e.png" alt="image-20230512144354744" style="zoom: 33%;" />
+</blockquote>
 <ul>
-<li>想要远程登入的用户名</li>
-<li>输入之后<code>putty</code>要求输入对应服务器的密码</li>
-<li>想要退出所登入的服务器<ul>
-<li>直接点右上角的 <code>×</code>(本人不建议这么做)</li>
-<li>输入<code>exit</code>退出服务器 (比较专业)</li>
+<li>输入远程登入的用户名</li>
+<li>输入对应用户名的密码</li>
+<li>想要退出所登入的连接<ul>
+<li>输入<code>exit</code>退出服务器</li>
 </ul>
 </li>
 </ul>
 </li>
-</ul>
+<li><p>在你安装完<code>putty</code>之后在系统的环境变量中已经添加好 <code>putty</code> 这一项，因此你可以直接使用按照前面提到的方法打开<code>powershell</code>，输入 <code>putty</code> 之后就可以按照之前的方法打开<code>Ubuntu</code>服务器啦</p>
+<blockquote>
+<img src="./images/loading.gif" data-original="https://lsky.winnerzr.ml/admin/2023/05/12/645de094c486b.png" alt="image-20230512144539652" style="zoom:33%;" /></blockquote>
 </li>
-<li>在你安装完<code>putty</code>之后在系统的环境变量中已经添加好 <code>putty</code> 这一项，因此你可以直接使用按照前面提到的方法打开<code>powershell</code>，输入 <code>putty</code> 之后就可以按照之前的方法打开<code>Ubuntu</code>服务器啦<br><img src="./images/loading.gif" data-original="https://lsky.winnerzr.ml/admin/2023/05/12/645de094c486b.png" alt="image-20230512144539652"></li>
 </ul>
-<h2 id="方法三：在windows下使用Xshell工具"><a href="#方法三：在windows下使用Xshell工具" class="headerlink" title="方法三：在windows下使用Xshell工具"></a>方法三：在<code>windows</code>下使用<code>Xshell</code>工具</h2><h4 id="工具在文章末尾有度盘链接-1"><a href="#工具在文章末尾有度盘链接-1" class="headerlink" title="工具在文章末尾有度盘链接"></a>工具在文章末尾有度盘链接</h4><ul>
-<li>下载安装好Xshell之后<br><img src="./images/loading.gif" data-original="https://lsky.winnerzr.ml/admin/2023/05/12/645de0ad67482.png" alt="image-20230512144604192"><br>点击新建</li>
-<li>在主机一栏中输入<code>服务器的IP地址</code>，端口号默认</li>
-<li>点击确定</li>
-<li>之后提示输入服务器 <code>用户名</code> 和 <code>密码 </code></li>
-<li>输入无误之后就可以登入到服务器啦<br>就像这样：<img src="./images/loading.gif" data-original="https://lsky.winnerzr.ml/admin/2023/05/12/645de0cf641e5.png" alt="image-20230512144638027"></li>
-<li>同样适用<code>exit</code>可以退出服务器</li>
+<h2 id="3-在windows下使用Xshell工具"><a href="#3-在windows下使用Xshell工具" class="headerlink" title="3.在windows下使用Xshell工具"></a>3.在<code>windows</code>下使用<code>Xshell</code>工具</h2><ul>
+<li><p>下载安装好Xshell之后，点击新建</p>
+<blockquote>
+<img src="./images/loading.gif" data-original="https://lsky.winnerzr.ml/admin/2023/05/12/645de0ad67482.png" alt="image-20230512144604192" style="zoom: 33%;" /></blockquote>
+</li>
+<li><p>在主机一栏中输入<code>服务器的IP地址</code>，端口号默认</p>
+</li>
+<li><p>点击确定</p>
+</li>
+<li><p>之后提示输入服务器 <code>用户名</code> 和 <code>密码 </code></p>
+</li>
+<li><p>输入无误之后就可以登入到服务器啦<br>就像这样：</p>
+<blockquote>
+<img src="./images/loading.gif" data-original="https://lsky.winnerzr.ml/admin/2023/05/12/645de0cf641e5.png" alt="image-20230512144638027" style="zoom: 33%;" /></blockquote>
+</li>
+<li><p>同样<code>exit</code>可以退出服务器连接</p>
+</li>
 </ul>
-<p><a target="_blank" rel="noopener" href="https://pan.baidu.com/s/12m0DOSaYBJjwE3mQH3LdEw" title="求三连">所用到的工具</a><br>提取码: <code>w84d</code><br><a target="_blank" rel="noopener" href="https://www.jianshu.com/p/b3c3333a9641" title="求关注">简书</a></p>
 
       </div>
       
@@ -286,7 +306,7 @@
           <div class="post-attach">
             <span class="post-pubtime">
               <i class="iconfont icon-updatetime mr-10" title="更新时间"></i>
-              2023-05-12 14:46:41
+              2023-05-12 21:55:27
             </span>
             
                   <span class="post-tags">
@@ -309,7 +329,7 @@
           </div>
           <div class="post-foot-prev">
             
-              <a href="/2020/09/27/Github%E8%BF%9E%E6%8E%A5%E4%BB%93%E5%BA%93/" target="_self">
+              <a href="/2020/07/25/KeyShotXR%E5%AD%A6%E4%B9%A0/" target="_self">
                 <span>下一页</span>
                 <i class="iconfont icon-chevronright"></i>
               </a>
@@ -326,7 +346,7 @@
     <div class="title">目录</div>
     <div class="catalog-content">
       
-        <ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#%E5%A6%82%E4%BD%95%E5%9C%A8windows%E4%B8%AD%E7%99%BB%E5%85%A5%E5%88%B0Ubuntu%E8%99%9A%E6%8B%9F%E6%9C%BA"><span class="toc-text">如何在windows中登入到Ubuntu虚拟机</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#%E6%96%B9%E6%B3%95%E4%B8%80%EF%BC%9A%E4%BD%BF%E7%94%A8windows%E8%87%AA%E5%B8%A6%E7%9A%84openssh"><span class="toc-text">方法一：使用windows自带的openssh</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#1-%E5%A6%82%E4%BD%95%E5%BC%80%E5%90%AFwindows%E8%87%AA%E5%B8%A6%E7%9A%84openssh"><span class="toc-text">1.如何开启windows自带的openssh</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#2-%E5%88%A9%E7%94%A8windows10%E4%B8%AD%E7%9A%84Openssh%E8%BF%9E%E6%8E%A5%E5%88%B0Ubuntu%E6%9C%8D%E5%8A%A1%E5%99%A8"><span class="toc-text">2.利用windows10中的Openssh连接到Ubuntu服务器</span></a></li></ol></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E6%96%B9%E6%B3%95%E4%BA%8C%EF%BC%9A%E5%9C%A8windows%E4%B8%8B%E4%BD%BF%E7%94%A8Putty%E5%B7%A5%E5%85%B7"><span class="toc-text">方法二：在windows下使用Putty工具</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#%E5%B7%A5%E5%85%B7%E5%9C%A8%E6%96%87%E7%AB%A0%E6%9C%AB%E5%B0%BE%E6%9C%89%E5%BA%A6%E7%9B%98%E9%93%BE%E6%8E%A5"><span class="toc-text">工具在文章末尾有度盘链接</span></a></li></ol></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E6%96%B9%E6%B3%95%E4%B8%89%EF%BC%9A%E5%9C%A8windows%E4%B8%8B%E4%BD%BF%E7%94%A8Xshell%E5%B7%A5%E5%85%B7"><span class="toc-text">方法三：在windows下使用Xshell工具</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#%E5%B7%A5%E5%85%B7%E5%9C%A8%E6%96%87%E7%AB%A0%E6%9C%AB%E5%B0%BE%E6%9C%89%E5%BA%A6%E7%9B%98%E9%93%BE%E6%8E%A5-1"><span class="toc-text">工具在文章末尾有度盘链接</span></a></li></ol></li></ol></li></ol></li></ol>
+        <ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#Windows%E4%B8%8B%E9%80%9A%E8%BF%87SSH%E8%BF%9E%E6%8E%A5Linux%E8%99%9A%E6%8B%9F%E6%9C%BA"><span class="toc-text">Windows下通过SSH连接Linux虚拟机</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#1-%E4%BD%BF%E7%94%A8windows%E8%87%AA%E5%B8%A6%E7%9A%84openssh"><span class="toc-text">1.使用windows自带的openssh</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#1-%E5%BC%80%E5%90%AFWindows%E7%9A%84openssh%E7%9A%84%E5%8A%9F%E8%83%BD"><span class="toc-text">1.开启Windows的openssh的功能</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#2-%E5%88%A9%E7%94%A8windows10%E4%B8%AD%E7%9A%84Openssh%E8%BF%9E%E6%8E%A5%E5%88%B0Ubuntu%E6%9C%8D%E5%8A%A1%E5%99%A8"><span class="toc-text">2.利用windows10中的Openssh连接到Ubuntu服务器</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#2-windows%E4%B8%8B%E4%BD%BF%E7%94%A8Putty%E5%B7%A5%E5%85%B7"><span class="toc-text">2.windows下使用Putty工具</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#3-%E5%9C%A8windows%E4%B8%8B%E4%BD%BF%E7%94%A8Xshell%E5%B7%A5%E5%85%B7"><span class="toc-text">3.在windows下使用Xshell工具</span></a></li></ol></li></ol>
       
     </div>
   </div>
@@ -684,12 +704,12 @@
       </a>
       <div class="share-content hidden">
         
-          <a class="share-item" href="https://twitter.com/intent/tweet?text=' + %E4%B8%8D%E5%90%8C%E7%9A%84SSH%E8%BF%9E%E6%8E%A5%E6%96%B9%E6%B3%95 + '&url=' + https%3A%2F%2Fwrite.jzfx.top%2F2020%2F07%2F03%2F%25E4%25B8%258D%25E5%2590%258C%25E7%259A%2584SSH%25E8%25BF%259E%25E6%258E%25A5%25E6%2596%25B9%25E6%25B3%2595%2F + '" target="_blank" title="Twitter">
+          <a class="share-item" href="https://twitter.com/intent/tweet?text=' + Windows%E4%B8%8B%E9%80%9A%E8%BF%87SSH%E8%BF%9E%E6%8E%A5Linux%E8%99%9A%E6%8B%9F%E6%9C%BA + '&url=' + https%3A%2F%2Fwrite.jzfx.top%2F2020%2F07%2F03%2FWindows%25E4%25B8%258B%25E9%2580%259A%25E8%25BF%2587SSH%25E8%25BF%259E%25E6%258E%25A5Linux%25E8%2599%259A%25E6%258B%259F%25E6%259C%25BA%2F + '" target="_blank" title="Twitter">
             <i class="iconfont icon-twitter"></i>
           </a>
         
         
-          <a class="share-item" href="https://www.facebook.com/sharer.php?u=https://write.jzfx.top/2020/07/03/%E4%B8%8D%E5%90%8C%E7%9A%84SSH%E8%BF%9E%E6%8E%A5%E6%96%B9%E6%B3%95/" target="_blank" title="Facebook">
+          <a class="share-item" href="https://www.facebook.com/sharer.php?u=https://write.jzfx.top/2020/07/03/Windows%E4%B8%8B%E9%80%9A%E8%BF%87SSH%E8%BF%9E%E6%8E%A5Linux%E8%99%9A%E6%8B%9F%E6%9C%BA/" target="_blank" title="Facebook">
             <i class="iconfont icon-facebooksquare"></i>
           </a>
         
