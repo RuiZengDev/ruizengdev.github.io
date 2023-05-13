@@ -27,7 +27,7 @@
       <link href="/2023/05/10/Bitcoin%20White%20Paper/"/>
       <url>/2023/05/10/Bitcoin%20White%20Paper/</url>
       
-        <content type="html"><![CDATA[<center><embed src="/pdf/Bitcoin White Paper.pdf" width="750" height="950"></center>]]></content>
+        <content type="html"><![CDATA[<iframe src="/pdf/Bitcoin White Paper.pdf" style="display:block; margin:auto; width:770px; height:900px;" frameborder="0"></iframe>]]></content>
       
       
       
@@ -355,9 +355,9 @@
       
         <tags>
             
-            <tag> Markdown </tag>
-            
             <tag> 图床 </tag>
+            
+            <tag> Markdown </tag>
             
             <tag> Gitee </tag>
             
