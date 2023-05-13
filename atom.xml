@@ -6,7 +6,7 @@
   <link href="https://write.jzfx.top/atom.xml" rel="self"/>
   
   <link href="https://write.jzfx.top/"/>
-  <updated>2023-05-12T16:15:19.353Z</updated>
+  <updated>2023-05-13T14:40:21.051Z</updated>
   <id>https://write.jzfx.top/</id>
   
   <author>
@@ -15,6 +15,32 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>最新KeilMDK安装</title>
+    <link href="https://write.jzfx.top/2023/05/13/%E6%9C%80%E6%96%B0KeilMDK%E5%AE%89%E8%A3%85/"/>
+    <id>https://write.jzfx.top/2023/05/13/%E6%9C%80%E6%96%B0KeilMDK%E5%AE%89%E8%A3%85/</id>
+    <published>2023-05-13T14:31:33.000Z</published>
+    <updated>2023-05-13T14:40:21.051Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;blockquote&gt;
+&lt;p&gt;AC5是指ARM Compiler</summary>
+        
+      
+    
+    
+    
+    
+    <category term="嵌入式" scheme="https://write.jzfx.top/tags/%E5%B5%8C%E5%85%A5%E5%BC%8F/"/>
+    
+    <category term="Keil" scheme="https://write.jzfx.top/tags/Keil/"/>
+    
+  </entry>
   
   <entry>
     <title>嵌入式工程师技能图（正在学习⏳）</title>
@@ -486,31 +512,6 @@
     <category term="Python" scheme="https://write.jzfx.top/tags/Python/"/>
     
     <category term="DeepLearning" scheme="https://write.jzfx.top/tags/DeepLearning/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Windows下通过SSH连接Linux虚拟机</title>
-    <link href="https://write.jzfx.top/2020/07/03/Windows%E4%B8%8B%E9%80%9A%E8%BF%87SSH%E8%BF%9E%E6%8E%A5Linux%E8%99%9A%E6%8B%9F%E6%9C%BA/"/>
-    <id>https://write.jzfx.top/2020/07/03/Windows%E4%B8%8B%E9%80%9A%E8%BF%87SSH%E8%BF%9E%E6%8E%A5Linux%E8%99%9A%E6%8B%9F%E6%9C%BA/</id>
-    <published>2020-07-03T05:19:43.000Z</published>
-    <updated>2023-05-12T13:55:27.160Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h1 id=&quot;Windows下通过SSH连接Linux虚拟机&quot;&gt;&lt;a href=&quot;#Windows下通过SSH连接Linux虚拟机&quot; class=&quot;headerlink&quot;</summary>
-        
-      
-    
-    
-    
-    
-    <category term="Windows" scheme="https://write.jzfx.top/tags/Windows/"/>
-    
-    <category term="Markdown" scheme="https://write.jzfx.top/tags/Markdown/"/>
     
   </entry>
   

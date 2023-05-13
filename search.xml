@@ -4,6 +4,27 @@
   
     
     <entry>
+      <title>最新KeilMDK安装</title>
+      <link href="/2023/05/13/%E6%9C%80%E6%96%B0KeilMDK%E5%AE%89%E8%A3%85/"/>
+      <url>/2023/05/13/%E6%9C%80%E6%96%B0KeilMDK%E5%AE%89%E8%A3%85/</url>
+      
+        <content type="html"><![CDATA[<blockquote><p>AC5是指ARM Compiler 5。它是ARMCC编译器的一个版本。</p><p>从MDK5.37开始，默认使用AC6。因为AC6在性能、速度和编译大小等方面都进行了大幅优化，所以不再安装AC5了。</p><p>然而，一些比较老的代码可能与AC6不太兼容，并会产生大量错误。如果需要在新版本的MDK中使用AC5，则需要手动安装。</p></blockquote><h1 id="安装方法"><a href="#安装方法" class="headerlink" title="安装方法"></a>安装方法</h1><p>​Keil_v5\ARM 下新建 AC5 文件夹并安装编译器</p><p><img src="./images/loading.gif" data-original="https://lsky.winnerzr.ml/admin/2023/05/13/645fa0d69ca75.png" alt="image-20230513223804994"></p><p>​    配置Keil MDK中工具路径</p><p><img src="./images/loading.gif" data-original="https://lsky.winnerzr.ml/admin/2023/05/13/645fa0f58cdae.png" alt="image-20230513223843714"></p><p>​    选择刚刚安装的目录，配置完成</p><p><img src="./images/loading.gif" data-original="https://lsky.winnerzr.ml/admin/2023/05/13/645fa13160e91.png" alt="image-20230513223943505"></p><blockquote><p>参考文献：</p><ol><li><a href="https://blog.csdn.net/xue_nuo/article/details/115369248">CSDN</a></li></ol></blockquote>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> 嵌入式 </tag>
+            
+            <tag> Keil </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>嵌入式工程师技能图（正在学习⏳）</title>
       <link href="/2023/05/13/%E5%B5%8C%E5%85%A5%E5%BC%8F%E5%B7%A5%E7%A8%8B%E5%B8%88%E6%8A%80%E8%83%BD%E5%9B%BE/"/>
       <url>/2023/05/13/%E5%B5%8C%E5%85%A5%E5%BC%8F%E5%B7%A5%E7%A8%8B%E5%B8%88%E6%8A%80%E8%83%BD%E5%9B%BE/</url>
