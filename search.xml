@@ -27,7 +27,7 @@
       <link href="/2023/05/10/Bitcoin%20White%20Paper/"/>
       <url>/2023/05/10/Bitcoin%20White%20Paper/</url>
       
-        <content type="html"><![CDATA[<p><object data="example.pdf" type="application/pdf" width="100%" height="800px">  <p>您的浏览器不支持在网页中嵌入PDF，请<a href="/pdf/Bitcoin White Paper.pdf">下载该文件</a>以查看。</p> </object></p>]]></content>
+        <content type="html"><![CDATA[<center><embed src="/pdf/Bitcoin White Paper.pdf" width="750" height="950"></center>]]></content>
       
       
       
@@ -355,9 +355,9 @@
       
         <tags>
             
-            <tag> 图床 </tag>
-            
             <tag> Markdown </tag>
+            
+            <tag> 图床 </tag>
             
             <tag> Gitee </tag>
             

@@ -44,14 +44,14 @@
     <link href="https://write.jzfx.top/2023/05/10/Bitcoin%20White%20Paper/"/>
     <id>https://write.jzfx.top/2023/05/10/Bitcoin%20White%20Paper/</id>
     <published>2023-05-10T12:23:52.000Z</published>
-    <updated>2023-05-13T09:49:42.589Z</updated>
+    <updated>2023-05-13T09:59:37.485Z</updated>
     
     
       
       
         
         
-    <summary type="html">&lt;p&gt;&lt;object data=&quot;example.pdf&quot; type=&quot;application/pdf&quot; width=&quot;100%&quot; height=&quot;800px&quot;&gt;  &lt;p&gt;您的浏览器不支持在网页中嵌入PDF，请&lt;a href=&quot;/pdf/Bitcoin White</summary>
+    <summary type="html">&lt;center&gt;&lt;embed src=&quot;/pdf/Bitcoin White Paper.pdf&quot; width=&quot;750&quot;</summary>
         
       
     
@@ -453,9 +453,9 @@
     
     
     
-    <category term="图床" scheme="https://write.jzfx.top/tags/%E5%9B%BE%E5%BA%8A/"/>
-    
     <category term="Markdown" scheme="https://write.jzfx.top/tags/Markdown/"/>
+    
+    <category term="图床" scheme="https://write.jzfx.top/tags/%E5%9B%BE%E5%BA%8A/"/>
     
     <category term="Gitee" scheme="https://write.jzfx.top/tags/Gitee/"/>
     
