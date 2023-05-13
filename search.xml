@@ -23,6 +23,44 @@
     
     
     <entry>
+      <title>Bitcoin White Paper</title>
+      <link href="/2023/05/10/Bitcoin%20White%20Paper/"/>
+      <url>/2023/05/10/Bitcoin%20White%20Paper/</url>
+      
+        <content type="html"><![CDATA[<p><object data="example.pdf" type="application/pdf" width="100%" height="800px">  <p>您的浏览器不支持在网页中嵌入PDF，请<a href="/pdf/Bitcoin White Paper.pdf">下载该文件</a>以查看。</p> </object></p>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> Bitcoin </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Linux关闭防火墙</title>
+      <link href="/2023/05/10/Linux%E5%85%B3%E9%97%AD%E9%98%B2%E7%81%AB%E5%A2%99/"/>
+      <url>/2023/05/10/Linux%E5%85%B3%E9%97%AD%E9%98%B2%E7%81%AB%E5%A2%99/</url>
+      
+        <content type="html"><![CDATA[<p>在Linux系统中，关闭防火墙的命令取决于您正在使用的防火墙软件。以下是常见的几个选项：</p><ol><li>如果您使用的是 iptables 防火墙，请使用以下命令：</li></ol><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo systemctl stop iptables</span><br></pre></td></tr></table></figure><ol start="2"><li>如果您使用的是 firewalld 防火墙，则可以使用以下命令：</li></ol><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo systemctl stop firewalld</span><br></pre></td></tr></table></figure><ol start="3"><li>如果您使用的是 ufw（Uncomplicated Firewall），则可以使用以下命令：</li></ol><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo ufw <span class="built_in">disable</span></span><br></pre></td></tr></table></figure><p>请注意，关闭防火墙可能会对您的系统安全造成威胁，并可能允许未经授权的访问和攻击。因此，在关闭防火墙之前，请确保您已经采取了其他安全措施来保护您的系统。</p>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> Linux </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>用Gitbook部署的一些笔记本（由于更改了GitHub用户名，正在重新部署⏳）</title>
       <link href="/2020/10/21/mynotebook/"/>
       <url>/2020/10/21/mynotebook/</url>

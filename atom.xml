@@ -40,6 +40,56 @@
   </entry>
   
   <entry>
+    <title>Bitcoin White Paper</title>
+    <link href="https://write.jzfx.top/2023/05/10/Bitcoin%20White%20Paper/"/>
+    <id>https://write.jzfx.top/2023/05/10/Bitcoin%20White%20Paper/</id>
+    <published>2023-05-10T12:23:52.000Z</published>
+    <updated>2023-05-13T09:49:42.589Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;&lt;object data=&quot;example.pdf&quot; type=&quot;application/pdf&quot; width=&quot;100%&quot; height=&quot;800px&quot;&gt;  &lt;p&gt;您的浏览器不支持在网页中嵌入PDF，请&lt;a href=&quot;/pdf/Bitcoin White</summary>
+        
+      
+    
+    
+    
+    
+    <category term="Bitcoin" scheme="https://write.jzfx.top/tags/Bitcoin/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Linux关闭防火墙</title>
+    <link href="https://write.jzfx.top/2023/05/10/Linux%E5%85%B3%E9%97%AD%E9%98%B2%E7%81%AB%E5%A2%99/"/>
+    <id>https://write.jzfx.top/2023/05/10/Linux%E5%85%B3%E9%97%AD%E9%98%B2%E7%81%AB%E5%A2%99/</id>
+    <published>2023-05-10T12:23:52.000Z</published>
+    <updated>2023-05-13T05:50:17.288Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;在Linux系统中，关闭防火墙的命令取决于您正在使用的防火墙软件。以下是常见的几个选项：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;如果您使用的是 iptables 防火墙，请使用以下命令：&lt;/li&gt;
+&lt;/ol&gt;
+&lt;figure class=&quot;highlight</summary>
+        
+      
+    
+    
+    
+    
+    <category term="Linux" scheme="https://write.jzfx.top/tags/Linux/"/>
+    
+  </entry>
+  
+  <entry>
     <title>用Gitbook部署的一些笔记本（由于更改了GitHub用户名，正在重新部署⏳）</title>
     <link href="https://write.jzfx.top/2020/10/21/mynotebook/"/>
     <id>https://write.jzfx.top/2020/10/21/mynotebook/</id>
