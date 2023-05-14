@@ -118,18 +118,20 @@
   
   <entry>
     <title>用Gitbook部署的一些笔记本（由于更改了GitHub用户名，正在重新部署⏳）</title>
-    <link href="https://write.jzfx.top/2020/10/21/mynotebook/"/>
-    <id>https://write.jzfx.top/2020/10/21/mynotebook/</id>
+    <link href="https://write.jzfx.top/2020/10/21/%E7%94%A8Gitbook%E9%83%A8%E7%BD%B2%E7%9A%84%E4%B8%80%E4%BA%9B%E7%AC%94%E8%AE%B0%E6%9C%AC/"/>
+    <id>https://write.jzfx.top/2020/10/21/%E7%94%A8Gitbook%E9%83%A8%E7%BD%B2%E7%9A%84%E4%B8%80%E4%BA%9B%E7%AC%94%E8%AE%B0%E6%9C%AC/</id>
     <published>2020-10-21T02:11:51.000Z</published>
-    <updated>2023-05-12T16:24:39.794Z</updated>
+    <updated>2023-05-14T08:48:58.934Z</updated>
     
     
       
       
         
         
-    <summary type="html">&lt;h1 id=&quot;My-Gitbooks&quot;&gt;&lt;a href=&quot;#My-Gitbooks&quot; class=&quot;headerlink&quot; title=&quot;My Gitbooks&quot;&gt;&lt;/a&gt;My Gitbooks&lt;/h1&gt;&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;&lt;img</summary>
+    <summary type="html">&lt;blockquote&gt;
+&lt;p&gt;由于gitee的图床仓库被我删除导致部分图片不能显示，仓库已经备份，后期有时间整理好放到Github，也打算重新整理一下，有些都是创建了并没有记笔记，依托于我写的bash脚本，可以一键本地部署你想要的笔记本。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;</summary>
         
       
     
